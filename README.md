@@ -17,7 +17,7 @@
 
 2. Créer son compte sur https://github.com/
 
-3. Connecter son compte sur sa machien : 
+3. Connecter son compte sur sa machine : 
 
 ```
 git config --global user.name "your_name_here"
