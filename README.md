@@ -70,7 +70,7 @@ Dans certains cas il peut y avoir des conflits lors du pull. Deux possibilités 
 git status
 ```
 
-> Log présente les informations sur l'état actuel du projet en local (suis-je à jour ? Ai-je de nouveaux fichiers non "trackés" - untracked files ? Ai-je des fichiers modifier à commit ?)
+> Log présente la liste des commits 
 
 ```
 git log
