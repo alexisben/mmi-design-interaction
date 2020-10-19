@@ -70,7 +70,7 @@ Dans certains cas il peut y avoir des conflits lors du pull. Deux possibilités 
 git status
 ```
 
-> Log présente la liste des commits 
+> Log présente l'historique des commits du projet. Tapez "q" pour quitter.
 
 ```
 git log
