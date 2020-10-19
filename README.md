@@ -105,7 +105,7 @@ git push
 
 [Cheat sheet](./zt_git_cheat_sheet.pdf)
 
-## Liens utiles : 
+## Liens utiles
 
 ### Tech:
 
