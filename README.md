@@ -1,4 +1,4 @@
-# mmi2022 Design d'interaction
+# MMI2022 - Design d'interaction
 
 ## Summary
 * [Git & Github - Setup](#setup)
