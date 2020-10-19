@@ -1,5 +1,12 @@
 # mmi2022 Design d'interaction
 
+## Summary
+* [Git & Github - Setup](#setup)
+* [Tutorial](#tutorial)
+* [Usage](#usage)
+* [Liens utiles](#liens-utiles)
+
+
 ## Git & Github
 
 ### Setup 
@@ -45,9 +52,7 @@ PC :
 https://www.youtube.com/watch?v=4o9qzbssfII&ab_channel=getCodingKnowledge
 
 
-## CheatSheet : 
-
-### Basics
+### Usage : 
 
 #### Obtenir la dernière version depuis la remote (le repo sur github)
 
@@ -96,4 +101,49 @@ git commit -m 'enter what you did here'
 git push
 ```
 
+### CheatSheet
 
+[Cheat sheet](./zt_git_cheat_sheet.pdf)
+
+## Liens utiles : 
+
+### Tech:
+
+https://experiments.withgoogle.com/
+
+https://tympanus.net/codrops/
+
+https://developer.mozilla.org/fr/
+
+https://codepen.io/
+
+http://caniuse.com
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+#### RESET CSS
+
+https://gist.github.com/terkel/1360380
+
+#### Slideshows
+
+https://kenwheeler.github.io/slick/
+
+https://owlcarousel2.github.io/OwlCarousel2/
+
+### Créa:
+
+https://dribbble.com/
+
+https://www.behance.net/
+
+http://www.fubiz.net/
+
+
+### Les deux : 
+
+https://www.awwwards.com/
+
+https://thefwa.com
+
+https://usepanda.com/app/#/
