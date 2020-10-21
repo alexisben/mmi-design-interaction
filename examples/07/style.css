@@ -1,0 +1,45 @@
+body {
+  background: #000;
+  color: white;
+}
+
+.button {
+  display: inline-block;
+  font-size: 40px;
+  vertical-align: middle;
+  padding: 20px;
+  border: 3px solid white;
+  margin: 10px;
+  color: white;
+  cursor: pointer;
+  transition: .5s all;
+  background: red;
+}
+
+.button:hover {
+  color: black;
+  background: white;
+}
+
+#cat.getout {
+  opacity: 0;
+  transition: 0.4s all;
+  transform: translateX(600px);
+}
+
+
+.box {
+  background: pink;
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+#cursor {
+  background: blue;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  margin: -20px;
+}

@@ -1,10 +1,74 @@
 # MMI2022 - Design d'interaction
 
 ## Summary
-* [Git & Github - Setup](#setup)
-* [Tutorial](#tutorial)
-* [Usage](#usage)
 * [Liens utiles](#liens-utiles)
+* [Git & Github - Setup](#setup)
+
+## Liens utiles
+
+### Tech:
+
+https://experiments.withgoogle.com/
+
+https://tympanus.net/codrops/
+
+https://developer.mozilla.org/fr/
+
+http://caniuse.com
+
+https://codepen.io/
+
+https://css-tricks.com/
+
+
+### CSS
+
+#### Bases
+
+https://www.alsacreations.com/article/lire/533-initiation-au-positionnement-en-css-partie-1.html
+
+https://www.alsacreations.com/tuto/lire/530-La-structure-des-balises-bloc-et-en-ligne.html
+
+#### Flexbox : 
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+https://la-cascade.io/flexbox-guide-complet/
+
+#### Liste des propriétés CSS
+
+https://developer.mozilla.org/fr/docs/Web/CSS/Reference
+
+#### RESET CSS
+
+https://gist.github.com/terkel/1360380
+
+
+#### Slideshows
+
+https://kenwheeler.github.io/slick/
+
+https://owlcarousel2.github.io/OwlCarousel2/
+
+
+## Veille
+
+#### Créa:
+
+https://dribbble.com/
+
+https://www.behance.net/
+
+http://www.fubiz.net/
+
+#### Les deux : 
+
+https://www.awwwards.com/
+
+https://thefwa.com
+
+https://usepanda.com/app/#/
+
 
 
 ## Git & Github
@@ -104,57 +168,3 @@ git push
 ### CheatSheet
 
 [Cheat sheet](./zt_git_cheat_sheet.pdf)
-
-## Liens utiles
-
-### Tech:
-
-https://experiments.withgoogle.com/
-
-https://tympanus.net/codrops/
-
-https://developer.mozilla.org/fr/
-
-http://caniuse.com
-
-https://codepen.io/
-
-https://css-tricks.com/
-
-#### Liste des propriétés CSS
-
-https://developer.mozilla.org/fr/docs/Web/CSS/Reference
-
-#### Flexbox : 
-
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-
-
-#### RESET CSS
-
-https://gist.github.com/terkel/1360380
-
-
-#### Slideshows
-
-https://kenwheeler.github.io/slick/
-
-https://owlcarousel2.github.io/OwlCarousel2/
-
-
-### Créa:
-
-https://dribbble.com/
-
-https://www.behance.net/
-
-http://www.fubiz.net/
-
-
-### Les deux : 
-
-https://www.awwwards.com/
-
-https://thefwa.com
-
-https://usepanda.com/app/#/

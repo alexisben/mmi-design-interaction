@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+/* 
+
+yellow : #fecc00 
+blue: #4ba4ae
+purple: #613168
+
+*/
+html, body {
+  font-family: 'Raleway';
+}
+
+.game {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.game__container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 100px;
+}
+
+.game__part {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.game__part--player {
+  background: #fecc00;
+  left: 0;
+  color: #1565c0;
+
+}
+
+.game__part--cpu {
+  background: #4ba4ae;
+  right: 0;
+  color: #ffc107;
+}
+
+.game__part li {
+  width: 100px;
+  height: 100px;
+  margin: -50px;
+  font-size: 150px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transition: opacity .2s
+}
+
+
+
+.game__interface {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100px;
+  bottom: 0;
+  background: #73377b;
+}
+
+.game__interface {
+  text-align: center;
+}
+.game__score {
+  position: absolute;
+  z-index: 50;
+  top: 50px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 70px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+
+.game__score span {
+  width: 50px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.game__interface li {
+  width: 50px;
+  height: 50px;
+  background: white;
+  border: 2px solid #000;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 20px 10px;
+  font-size: 30px;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+
+.game__interface li:hover {
+  background: #fecc00;
+}
+
+.game__message {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  -webkit-transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  opacity: 0;
+  transform: translateY(50px);
+  text-transform: uppercase;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+.game__message.is-active {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.game__message span {
+  display: none;
+}

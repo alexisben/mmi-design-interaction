@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html, body {
+  font-family: 'Raleway';
+}
+
+.title {
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  font-size: 50px;
+}
+
+#title-second-example span {
+  display: inline-block;
+  vertical-align: middle;
+  min-width: 10px;
+  position: relative;
+  top: 0;
+  transition: 0.5s;
+}

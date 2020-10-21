@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SHIFUMI</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <main id="wrapper">
+    
+    <div class="game">
+
+      <div class="player">
+        
+        <div class="icon rock">
+            <i class="fa fa-hand-rock"></i>
+        </div>
+
+        <div class="icon paper">
+            <i class="fa fa-hand-paper"></i>
+        </div>
+
+        <div class="icon scissors">
+            <i class="fa fa-hand-scissors"></i>
+        </div>
+      </div>
+
+      <div class="computer">
+          <div class="icon rock">
+              <i class="fa fa-hand-rock"></i>
+          </div>
+  
+          <div class="icon paper">
+              <i class="fa fa-hand-paper"></i>
+          </div>
+  
+          <div class="icon scissors">
+              <i class="fa fa-hand-scissors"></i>
+          </div>
+        </div>
+    </div>
+
+
+    <div class="buttons">
+      <ul>
+        <li class="button" data-id="rock">
+          <i class="fa fa-hand-rock"></i>
+        </li>
+
+        <li class="button" data-id="paper">
+          <i class="fa fa-hand-paper"></i>
+        </li>
+
+        <li class="button" data-id="scissors">
+          <i class="fa fa-hand-scissors"></i>
+        </li>
+      </ul>
+    </div>
+  </main>
+
+  <div id="score">
+    <span class="player-score">0</span>
+    <span> / </span>
+    <span class="cpu-score">0</span>
+  </div>
+
+  <div id="result-message"></div>
+
+  <script src="jquery.min.js"></script>
+
+  <script src="app.js"></script>
+  
+</body>
+</html>

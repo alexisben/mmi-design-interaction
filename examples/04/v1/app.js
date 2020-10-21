@@ -1,0 +1,1 @@
+function init(){var n=document.querySelector(".expander"),i=n.querySelector(".btn"),e=!1;i.addEventListener("click",function(){e?(e=!1,n.classList.remove("is-expanded")):(e=!0,n.classList.add("is-expanded"))})}init();

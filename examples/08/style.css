@@ -1,0 +1,29 @@
+section {
+  display: flex;
+}
+
+.left-part {
+  width: 50%;
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 0.5s
+}
+
+.image.is-active {
+  opacity: 1;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.right-part {
+  width: 50%;
+}

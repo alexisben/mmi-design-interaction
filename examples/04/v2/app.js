@@ -1,0 +1,1 @@
+function init(){var n=document.querySelector(".expander"),e=n.querySelector(".btn"),i=!1,t=n.querySelector(".expander__content");t.parentElement.style.height="0px",e.addEventListener("click",function(){t.parentElement.style.height=i?(i=!1,n.classList.remove("is-expanded"),"0px"):(i=!0,n.classList.add("is-expanded"),t.clientHeight+"px")})}init();

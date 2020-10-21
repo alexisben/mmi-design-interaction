@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SHIFUMI</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <main id="wrapper">
+
+    <h1>SHI FU MI</h1>
+
+    <div class="game">
+
+      <div class="game__score">
+        <span id="player-score">0</span> - <span id="cpu-score">0</span>
+      </div>
+
+      <div class="game__container">
+
+        <div class="game__part game__part--player">  
+          <ul>
+            <li class="picto-rock picto" id="player-rock"><i class="fas fa-hand-rock"></i></li>
+            <li class="picto-paper picto" id="player-paper"><i class="fas fa-hand-paper"></i></li>
+            <li class="picto-scissors picto"  id="player-scissors"><i class="fas fa-hand-scissors"></i></li>
+          </ul>
+        </div>
+
+        <div class="game__part game__part--cpu">  
+          <ul>
+            <li class="picto-rock picto" id="cpu-rock"><i class="fas fa-hand-rock"></i></li>
+            <li class="picto-paper picto" id="cpu-paper"><i class="fas fa-hand-paper"></i></li>
+            <li class="picto-scissors picto"  id="cpu-scissors"><i class="fas fa-hand-scissors"></i></li>
+          </ul>
+        </div>
+        
+        <div class="game__message" id="game-message">
+          <span class="is-win">You win !</span>
+          <span class="is-loose">Looser...</span>
+          <span class="is-equal">Equality</span>
+        </div>
+      </div>
+
+      <div class="game__interface">
+
+     
+        <ul class="game__buttons">
+          <li id="button-rock"><i class="fas fa-hand-rock"></i></li>
+          <li id="button-paper"><i class="fas fa-hand-paper"></i></li>
+          <li id="button-scissors"><i class="fas fa-hand-scissors"></i></li>
+        </ul>
+
+      </div>
+    </div>
+
+  </main>
+
+  <script src="app.js"></script>
+  
+</body>
+</html>
