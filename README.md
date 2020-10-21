@@ -115,9 +115,17 @@ https://tympanus.net/codrops/
 
 https://developer.mozilla.org/fr/
 
+http://caniuse.com
+
 https://codepen.io/
 
-http://caniuse.com
+https://css-tricks.com/
+
+#### Liste des propriétés CSS
+
+https://developer.mozilla.org/fr/docs/Web/CSS/Reference
+
+#### Flexbox : 
 
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
