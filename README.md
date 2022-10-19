@@ -95,6 +95,7 @@ https://usepanda.com/app/#/
 ```
 git config --global user.name "your_name_here"
 git config --global user.email "your_email@email.com"
+git config --global pull.rebase false
 ```
 
 4. Un membre de votre équipe doit créer le repo de votre site web sur github.com
